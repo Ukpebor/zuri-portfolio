@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #c9cdd6;
+}
+
+.nav-links li,
+a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #e0d5d5;
+  text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 13%;
+    background: #272b2f;
+}
+ 
+.logo {
+    cursor: pointer;
+    color: #88949B;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-right: 20vh;
+}
+
+.nav_links {
+    list-style: none;
+    background: #272b2f;
+}
+  
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+  
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    font-weight: 550;
+    background: #272b2f;
+}
+  
+.nav_links li a:hover {
+    color: #88949B;
+}
+
+.class {
+    text-align: center;
+    padding: 50px;
+}
+
+.class h1{
+    font-size: 100px;
+}
+
+.class h3{
+    font-size: 30px;
+}
+
+div.container{
+    text-align: center;
+}
+.image {
+    height: 300px;
+    width: 250px;
+    border-radius: 20%;
+}
+
+div.about li {
+    list-style: none;
+}
+
+div.about li::before{
+    content: "\00BB";
+}
+
+.about {
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+}
+
+figcaption a{
+    font-size: inherit;
+    color: black;
+}
+
+.projects {
+    text-align: center;
+}
+
+div.projects h6 {
+    font-size: 40px;
+}
+
+div.projects img {
+    width: 500px;
+}
+
+div.contact {
+    padding: 3rem;
+    background: #304369;
+}
+
+div.content {
+    text-align: center;
+}
+
+div.content h4 {
+    color: #bcc3c7;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+div.content p {
+    color: #88949B;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-top: 0.8rem;
+}
+
+div.content-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    background: #304369;
+}
+
+input[type="text"] {
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: 25%;
+    outline: none;
+    border: 1px solid #bcc3c7;
+    color: #f0f0f0;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #304369;
+}
+
+input[type="email"] {
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: 25%;
+    outline: none;
+    border: 1px solid #bcc3c7;
+    color: #f0f0f0;
+    font-size: 18px;
+    border-radius: 10px;
+    background: #304369;
+}
+
+::placeholder {
+    color: #A6A5AA;
+}
+
+div.content-textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+textarea {
+    width: 51%;
+    height: 150px;
+    font-size: 18px;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #bcc3c7;
+    color: #f0f0f0;
+    background: #304369;
+}
+
+div.content-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+div.content-btn a {
+    background: #75346d;
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+div.footer h6 {
+    background: #272b2f;
+    text-align: center;
+    color: #88949B;
+    font-size: 40px;
+}
