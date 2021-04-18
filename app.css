@@ -141,61 +141,6 @@ div.content p {
     padding-top: 0.8rem;
 }
 
-div.content-input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 3rem;
-    background: #304369;
-}
-
-input[type="text"] {
-    margin-right: 10px;
-    padding: 10px 20px;
-    width: 25%;
-    outline: none;
-    border: 1px solid #bcc3c7;
-    color: #f0f0f0;
-    font-size: 18px;
-    border-radius: 10px;
-    background: #304369;
-}
-
-input[type="email"] {
-    margin-right: 10px;
-    padding: 10px 20px;
-    width: 25%;
-    outline: none;
-    border: 1px solid #bcc3c7;
-    color: #f0f0f0;
-    font-size: 18px;
-    border-radius: 10px;
-    background: #304369;
-}
-
-::placeholder {
-    color: #A6A5AA;
-}
-
-div.content-textarea {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2rem;
-}
-
-textarea {
-    width: 51%;
-    height: 150px;
-    font-size: 18px;
-    padding: 0.5rem;
-    outline: none;
-    border-radius: 10px;
-    border: 1px solid #bcc3c7;
-    color: #f0f0f0;
-    background: #304369;
-}
-
 div.content-btn {
     display: flex;
     justify-content: center;
@@ -242,23 +187,6 @@ div.footer h6 {
   
   div.projects img{
     width: 300px;
-  }
-  
-  div.content-input {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  input[type="text"] { 
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  input[type="email"] {
-    width: 100%;
-  }
-  textarea {
-    width: 100%;
-    height: 100px;
   }
   
   div.content-btn a {
